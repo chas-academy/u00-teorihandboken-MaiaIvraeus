@@ -1,5 +1,5 @@
 # Teorihandboken - Programmeringsmetodik (PG)
-Studerande: Förnamn Efternamn
+Studerande: Maria Ivraeus
 
 ## PG 1.1 Versionshantering (Git)
 Beskriv rubriken här

@@ -1,5 +1,5 @@
 # Teorihandboken - Projektmetodik (PJ)
-Studerande: Förnamn Efternamn
+Studerande: Maria Ivraeus
 
 ## PJ 1.1 Agila metoder (Scrum, Kanban, Extreme Programming)
 Beskriv rubriken nedan här

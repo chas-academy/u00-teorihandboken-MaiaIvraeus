@@ -1,5 +1,5 @@
 # Teorihandboken - Backendutveckling (BE)
-Studerande: Förnamn Efternamn
+Studerande: Maria Ivraeus
 
 ## BE 1.1 PHP
 Beskriv rubriken här
