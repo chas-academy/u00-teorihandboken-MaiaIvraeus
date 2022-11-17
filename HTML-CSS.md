@@ -8,7 +8,7 @@ HTML står för Hyper Text Markup Language och är det märkspråk som används 
 HTML-dokument består av en serie element som säger till webbläsaren hur den ska visa detta innehåll på en enhet. Ett HTML-element kan innehålla instruktioner, innehåll och en semantisk mening. Elementen består absolut oftast av en start- och en slut-tagg som omsluter ett innehåll:
 <br /><br />
 
-<p align="center"><img src="https://assets.digitalocean.com/django_gunicorn_nginx_2004/articles/new_learners/html-element-diagram.png" width="300" /></p>
+<p align="center"><img src="https://assets.digitalocean.com/django_gunicorn_nginx_2004/articles/new_learners/html-element-diagram.png" width="400" /></p>
 <br>
 Exempel på basala element ett HTML-dokument:<br><br>
 
@@ -62,12 +62,39 @@ CSS-syntaxen utgörs av en selector som pekar på ett visst HTML-element man vil
    background-color: blue;<br>
    border: 3px solid yellow;<br>
 }
+<br><br>
+<h3>The Box Model</h3>
+Detta är ett viktigt koncept att förstå om man ska bygga hemsidor. Varje HTML-element kan sägas vara inne i en box, och dessa boxar består av margins, borders, padding och content:
+<br><br>
+<p align="center"><img src="https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-1-4842-4903-1_16/MediaObjects/320834_2_En_16_Fig1_HTML.png" width="400" /></p>
 <br>
+Genom att kunna beräkna dimensionerna av dessa containers kan man med säkerhet veta hur elementen kommer vara utplacerade på skärmen.
+
+Box-sizing är en property i CSS som bestämmer vad som ska ingå när man beräknar den totala höjden och bredden av ett elements container. Värdet av denna property kan vara antingen content-box (som är default-värde om inget annat anges) eller border-box. 
+<br><br>
+Med content-box kommer elementets dimensioner enbart inkludera höjd och bredd, och räknar inte in eventuell padding eller borders. Dessa tar alltså plats *utanför* elementets box, och kommer inte trycka undan content för att få plats. Med värdet border-box räknas padding och borders med *inuti* den totala bredden och höjden av boxen, och kommer således kunna påverka elementets content. Exempel:
+<br>
+
+>box-sizing: border-box;
+
+
+
+### Box display
+CSS-egenskapen display bestämmer hur ett elements box ska bete sig i förhållande till andra boxar. Denna egenskaps mest vanliga default-värden i webbläsare är block och inline. Exempel:
+
+>display: inline;
+
+Ett block-element kommer ta upp hela bredden av dess parent-container, och dess höjd kommer bestämmas av dess content. Nya block kommer börja på en ny rad. Ett inline-element kommer inte starta på en ny rad, utan kommer ta upp den plats som finns över på skärmen. Vissa element är alltid inline, som exempelvis `<img>`, `<a>` och `<span>`.
+
+
 ---
+
 >KÄLLOR:
 https://www.w3schools.com/html/html_intro.asp <br><br>
 https://en.wikipedia.org/wiki/HTML<br><br>
+https://www.digitalocean.com/community/tutorials/how-to-use-the-display-property-to-manipulate-the-box-model-in-css<br><br>
 https://www.digitalocean.com/community/tutorials/what-is-an-html-element<br><br>
+https://www.freecodecamp.org/news/the-css-display-property-display-none-display-table-inline-block-and-more/<br><br>
 https://www.w3schools.com/css/css_intro.asp<br><br>
 https://developer.mozilla.org/en-US/docs/Web/CSS<br><br>
 Föreläsningar av Sebastian Lindgren, Chas Academy
