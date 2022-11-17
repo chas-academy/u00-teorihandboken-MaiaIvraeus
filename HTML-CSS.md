@@ -89,7 +89,7 @@ Ett block-element kommer ta upp hela bredden av dess parent-container, och dess 
 
 ---
 
->KÄLLOR:
+>KÄLLOR:<br>
 https://www.w3schools.com/html/html_intro.asp <br><br>
 https://en.wikipedia.org/wiki/HTML<br><br>
 https://www.digitalocean.com/community/tutorials/how-to-use-the-display-property-to-manipulate-the-box-model-in-css<br><br>
@@ -102,22 +102,28 @@ Föreläsningar av Sebastian Lindgren, Chas Academy
 ---
 
 ## HC 1.2 Responsiv design
-En hemsida ska kunna visas på olika enheter och deras olika skärmstorlekar, samt se så bra ut som möjligt på dem, för att säkerställa en så bra användarupplevelse som det bara går. En responsiv design ser till att layouten på hemsidan anpassar sig på den enhet som den visas på genom, och kan erhållas med exempelvis flexbox (eller Flexibel Box Module som det egentligen heter). Med detta kan man skapa en flexibel layout, och göra saker som centrering, justering av utrymme för content etc. mycket snabbare. 
+En hemsida ska kunna visas på olika enheter och deras olika skärmstorlekar, samt se så bra ut som möjligt på dem, för att säkerställa en så bra användarupplevelse som det bara går. En responsiv design ser till att layouten på hemsidan anpassar sig på den enhet som den visas på genom, och kan erhållas med exempelvis flexbox (eller Flexibel Box Module som det egentligen heter).
+
+ Med detta kan man skapa en flexibel layout som ser bra ut på många enhetsstorlekar, och kan göra saker som centrering, justering av utrymme för content etc. mycket snabbare. Detta sätt att bygga hemsidor på blir alltså mer kostnadseffektivt, då underhållet av layouten blir enklare.
 
 Flexbox är alltså en modul och inte en CSS-egenskap, och den gör inline/blockmodellen överflödig. För att använda flexbox måste man först definiera så kallade flex containers i html-dokumentet. 
 
-För att förstå det grundläggande i flex box kan man ge ett exempel på en flex container (parent), som innehåller tre stycken flex items (children):
+För att förstå det grundläggande i hur man gör en flex box kan man ge ett exempel på en flex container (parent), som innehåller tre stycken flex items (children):
 
 >`<div=class="flex-container">`<br><br>    `<div>1</div>`<br>
    `<div>2</div>`<br>
    `<div>3</div>`<br><br>
 `</div>`
 
-För att med CSS göra containern flexibel använder man sedan ”flex-container” som selektor, samt sätter värdet flex på display-egenskapen:
+För att med CSS göra denna container flexibel använder man sedan ”flex-container” som selektor, samt sätter värdet flex på display-egenskapen:
 
->.flex-container {
-   display: flex;
+>.flex-container {<br>
+   display: flex; <br>
 } 
+
+<br>
+<p align="center"><img src="https://dev-to-uploads.s3.amazonaws.com/i/hy2oqjvsbk60ef92nktg.png" width="400" /></p>
+<br>
 
 Att jobba med flexbox kan beskrivas vara endimensionellt i den meningen att man hanterar containers med antingen rader eller kolumner, var för sig. Detta gör den med egenskapen flex-direction, som kan ha 4 olika värden:
 
@@ -125,10 +131,15 @@ Att jobba med flexbox kan beskrivas vara endimensionellt i den meningen att man 
 row-reverse<br>
 column<br>column-reverse
 
- Dessa anger vilken huvudaxel som containern ska gå efter, rad eller kolumn. 
+Här är en illustration som visar de olika flex-directions, plus några andra CSS-egenskaper som man kan använda för att manipulera flex-containerns items:
 <br>
+<p align="center"><img src="https://pbs.twimg.com/media/FTtrHz7WAAAlMWe.jpg" width="400" /></p>
+
 ___
->KÄLLOR:
+
+
+>KÄLLOR:<br>
+https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox#why_flexbox<br><br>
 https://en.wikipedia.org/wiki/Responsive_web_design<br><br>
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox<br><br>
 https://www.w3schools.com/css/css3_flexbox_container.asp<br><br>
