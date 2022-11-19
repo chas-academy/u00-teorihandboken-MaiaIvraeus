@@ -124,7 +124,6 @@ För att med CSS göra denna container flexibel använder man sedan ”flex-cont
 <br>
 <p align="center"><img src="https://dev-to-uploads.s3.amazonaws.com/i/hy2oqjvsbk60ef92nktg.png" width="400" /></p>
 <br>
-
 Att jobba med flexbox kan beskrivas vara endimensionellt i den meningen att man hanterar containers med antingen rader eller kolumner, var för sig. Detta gör den med egenskapen flex-direction, som kan ha 4 olika värden:
 
 >row<br>
@@ -149,11 +148,75 @@ Föreläsningar av Sebastian Lindgren, Chas Academy
 ## HC 1.3 Tillgänglighet inom webb
 Beskriv rubriken nedan här
 
+
+
 ## HC 1.4 Aktuella webbstandarder (gällande och kommande standarder)
-Beskriv rubriken nedan här
+
 
 ## HC 1.5 CSS Pre-processorer (ex SASS/LESS)
-Beskriv rubriken nedan här
+En pre-processor är ett program som tar en annorlunda CSS-syntax och kompilerar den till en vanilla CSS-fil (alltså vanlig CSS), så att browsern kan läsa den. Vad en pre-processor gör är att man kan använda fler funktioner än i vanlig CSS - och med dessa skriva mer strukturerat, lättläst och kunna göra ändringar snabbare med ökad produktivitet som följd. Det finns ett antal olika pre-processorer att välja mellan, men de absolut populäraste är Sass, Less och Stylus. Alla dessa har sina egna syntaxer.
+
+### Sass
+Sass är det äldsta pre-processorprogrammet och kom ut 2006. Sass står för *Syntactically Awesome Style Sheets* och har två stycken syntaxer med file extensions .sass och .scss. Den som är nyast och används absolut mest idag är .scss, och den använder sig av brackets och semikolons, precis som i vanlig CSS.
+
+I Sass använder man sig av variabler med tilldelade värden, som man sedan kan återanvända i kodningen. Dessa variabler deklareras med $-tecknet. Exempel:
+>$primary-color: darkblue;<br><br>body {
+<br>color: $primary-color;<br>}
+
+Om man bestämmer sig för att ändra primary-color till någon annan färg, behöver man alltså bara göra det på ett enda ställe i stylesheetet. I variablerna kan man även deklarera nummer, strings, booleans, lists och nulls.
+
+I Sass kan man använda sig av så kallade *mixins* som låter en skriva CSS-stilar som kan återanvändas på andra ställen i stylesheetet. Mixins kan också ha andra mixins i sig. Exempel på syntax:
+>@mixin *name* {<br>
+    property: value;<br>
+    property: value;<br>
+    ...<br>
+} 
+
+För att göra en mixin för exempelvis hur varnings-text ska se ut kan man skriva som följer:
+>@mixin warning-text {<br>
+color: red;<br>
+font-size 30px;<br>
+font-weight: bold;<br>}
+
+Och för att använda denna mixin på annat ställe i koden använder man sig av direktivet *@include*. Exempel:
+>.danger {<br>
+@include link-style;<br>
+background-color: $primary-color<br>
+...<br>}
+
+I Sass kan man även nesta selectors, på samma sätt som man gör i HTML, vilket gör koden snyggare och lättare att läsa än i standard-CSS. Exempel:
+>nav {<br>
+  ul {<br>
+    margin: 0;<br>
+    padding: 0;<br>
+    list-style: none;<br>
+  }<br><br>
+  li {<br>
+    display: inline-block;<br>
+  }<br><br>
+  a {<br>
+    display: block;<br>
+    padding: 6px 12px;<br>
+    text-decoration: none;<br>
+  }<br>
+}<br>
+
+Man kan även nesta properties, som exempelvis properties som har samma prefix; text-align, text-transform, text-overflow etc. Exempel:
+>text: {<br>
+  align: center;<br>
+  transform: lowercase;<br>
+  overflow: hidden;<br>
+}<br>
+
+
+___
+>KÄLLOR:<br>
+https://sass-lang.com/<br><br>
+https://developer.mozilla.org/en-US/docs/Glossary/CSS_preprocessor<br><br>
+https://www.w3schools.com/sass/sass_intro.php<br><br>
+https://www.w3schools.com/sass/sass_mixin_include.php<br><br>
+https://www.w3schools.com/sass/<br><br>
+https://raygun.com/blog/css-preprocessors-examples/<br><br>
 
 ## HC 1.6 Optimering och validering av HTML & CSS
 Beskriv rubriken nedan här
