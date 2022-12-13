@@ -70,13 +70,14 @@ Saker att tänka på under utvecklingen av en produkt kan exempelvos vara:<br>
 * Kan man slutföra olika uppgifter?
 * Känns user interface:t intuitivt att använda?
 <br>
+
 ___
 >### KÄLLOR:
 >https://www.uxmatters.com/mt/archives/2012/04/more-than-usability-the-four-elements-of-user-experience-part-i.php<br><br>
 https://www.interaction-design.org/literature/topics/usability<br><br>
 https://www.smashingmagazine.com/2007/10/30-usability-issues-to-be-aware-of/<br><br>
 https://www.interaction-design.org/literature/topics/ux-design <br><br>
-Föreläsningar av Sebastian Lindgren, Chas Acadedmy
+Föreläsningar av Sebastian Lindgren, Chas Academy
 ___
 
 ## UD 1.3 Riktlinjer för användbarhet
@@ -122,8 +123,7 @@ Ett tydligt exempel på när man använts sig av detta mönster är Facebooks la
 
 ___
 >### KÄLLOR:<br>
-
-https://lineindesign.medium.com/be-a-designer-who-can-also-help-with-writing-copy-2f4ea02a5646 <br><br>
+>https://lineindesign.medium.com/be-a-designer-who-can-also-help-with-writing-copy-2f4ea02a5646 <br><br>
 https://uxplanet.org/f-shaped-pattern-for-reading-content-80af79cd3394 <br><br>
 https://www.interaction-design.org/literature/article/user-interface-design-guidelines-10-rules-of-thumb<br><br>
 https://99designs.com/blog/web-digital/website-usability-principles/<br><br>
@@ -183,7 +183,7 @@ Den mest arbets- och tidskrävande metoden, som består av en blandning av kvali
 ___
 
 >### KÄLLOR:<br>
-https://www.nngroup.com/articles/persona-types/<br><br>
+>https://www.nngroup.com/articles/persona-types/<br><br>
 https://www.hotjar.com/blog/user-personas/<br><br>
 https://buffer.com/library/marketing-personas-beginners-guide/<br><br>
 
@@ -211,7 +211,7 @@ Kvantitativa metoder används för att samla in information med hjälp av numeri
 
 ___
 >### KÄLLOR:<br>
-https://research.com/research/what-is-empirical-research<br><br>
+>https://research.com/research/what-is-empirical-research<br><br>
 https://www.formpl.us/blog/empirical-research#:~:text=Empirical%20research%20is%20a%20type,or%20scientific%20data%20collection%20methods.<br><br>
 Föreläsningar av Sebastian Lindgren, Chas Academy
 ___
@@ -249,7 +249,7 @@ Hur mycket energi det förbrukar i den mänskliga hjärnan att gå från en proc
 
 ___
 >### KÄLLOR:<br>
-https://www.webmd.com/mental-health/what-is-cognitive-psychology<br><br>
+>https://www.webmd.com/mental-health/what-is-cognitive-psychology<br><br>
 https://www.uxpin.com/studio/blog/cognitive-psychology-for-ux-design/#:~:text=for%20your%20customers.-,Understanding%20Cognitive%20Psychology%20in%20UX%20Design,foundation%20for%20user%20experience%20design.<br><br>
 https://www.testingtime.com/en/blog/cognitive-psychology-in-ux/<br><br>
 Föreläsningar av Sebastian Lindgren, Chas Academy
