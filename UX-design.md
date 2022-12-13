@@ -2,9 +2,48 @@
 Studerande: Maria Ivraeus
 
 ## UD 1.1 Grafik och design för webbsidor
+Under utvecklandet av en webbsida måste man tänka på både visuell och funktionell design, vilket inte kan vara helt enkelt. 
+
+Det är viktigt att vara medveten om hur sidans "flow" känns, då en webbsida inte kan ses som en serie av olika separata sidor utan som ett flöde där man ska ta sig från ett ställe till ett annat. 
+
+Saker att ta i beaktande:
+
+**Informations-arkitektur**<br>
+Informations-arkitektur (IA) är ett koncept som organiserar innehållet på en sida klart och tydligt för användaren, ofta understött av användarundersökningar och användartester. IA används också för att utforma sidans menyer och navigationssystem<br><br>
+**Grafiken**<br>
+Loggor, bilder och ikoner på webbsidan bör passa ihop med den övriga designen (färgpalett, layout osv.).
+
+**Hastigheten**<br>
+Tar det allt för länge att ladda sidan ledsnar användaren ganska snart. Allt över 1 sekund upplevs segt. 
+
+**Global Navigation**<br>
+Det säger ju sig självt att om användaren inte kan navigera en webbsida med lätthet så är den inte bra designad. Några ledord när det kommer till navigation är:
+* *Enkelhet*<br>
+Målet är att låta användarna förstå hur man tar sig runt sidan med så få klick som möjligt.<br><br>
+* *Självklarhet*
+Det måste vara klart och tydligt markerat vad alla navigationsval innebär.
+* *Konsekvens*<br>
+Navigationssystemet bör vara likadant på alla sidor av webbsidan.
+<br><br>
+
+**Visuell och funktionell design av länkar**<br>
+En viktig komponent i användbarheten på en webbsida.
+* Skilj på interna och externa länkar. Låt interna länkar öppnas i samma tab så användaren kan använda bakåt-knappen.
+* Ändra färgen på besökta länkar för att se till att användaren kan hålla reda på var hen varit.
+* Dubbelkolla alla länkar och se till att dom fungerar. Det finns verktyg man kan använda för att hitta eventuella döda länkar på websida, exempelvis Dead Link Checker.<br><br>
+
+**Tillbaka-knappen**<br
+Tillbaka-knappen används generellt otroligt mycket, och användaren kommer förvänta sig att den ska fungera som vanligt. En viktig detalj är också att låta användaren komma tillbaka till just det avsnitt av sidan de lämnade, och inte tillbaka till toppen vilket kan vara mycket irriterande på långa sidor.<br><br>
+
+**Sökfunktionen**<br>
+Användare av en sida bör kunna söka efter saker de letar efter. Sätt sökfunktionen där användaren förväntar sig att den ska vara, alltså i övre delen, mestadels i högra hörnet. Använd gärna en förstoringsglas-ikon för att markera sökfältet. Se till att sökfältet är stort och långt nog så att man ser vad man skrivit där i (minst 27 bokstäver långt brukar vara en bra tumregel).
+
+(Se nästa fråga för mer angående detta ämne.)
 ___
 >### KÄLLOR:<br>
-
+>https://xd.adobe.com/ideas/principles/web-design/web-page-design/<br><br>
+https://www.invisionapp.com/defined/web-design-and-development<br><br>
+Föreläsningar av Sebastian Lindgren, Chas Academy
 ___
 
 ## UD 1.2 UX och användbarhet
@@ -99,12 +138,12 @@ En prototyp till en webbsida kan vara allt ifrån enklare varianter tillverkade 
 
 Så kallade *low fidelity*-prototyper är mycket enkla och snabbt producerade prototyper, skissade på ett papper eller i något enklare mjukvaruprogram. Dessa sorter av prototyper görs vanligtvis i den absoluta början av ett utvecklings-projekt.
 <br>
-<p align="center"><img src="https://s3.amazonaws.com/www-inside-design/uploads/2018/05/lofi-hifi-proto-sq.jpg" /></p>
+<p align="center"><img src="https://s3.amazonaws.com/www-inside-design/uploads/2018/05/lofi-hifi-proto-sq.jpg" width="400"/></p>
 
 
 *Hi fidelity-prototyping* används för att ge en i princip helt full uppfattning om hur den färdiga produkten kommer se ut och kännas. Dessa är mycket detaljerade och så nära som den färdiga produkten som möjligt. Hi fi-prototypen ska innefatta inte bara UI (user interface), utan också UX. Dessa prototyper görs i mjukvaruprogram, som exempelvis Figma.
 
-<p align="center"><img src="https://www.animaapp.com/blog/wp-content/uploads/2020/07/prototype-and-export-html-figma-1-1024x636.jpg" /></p>
+<p align="center"><img src="https://www.animaapp.com/blog/wp-content/uploads/2020/07/prototype-and-export-html-figma-1-1024x636.jpg" width="400" /></p>
 
 *Wizard of Oz-prototyping* kallas en prototyp-metod som man använder för att samla data om hur en produkt interageras med, med syftet att öka användar-upplevelsen. Detta går ut på att oftast med relativt enkla medel skapa en modell av den färdiga webbsidan och dess funktioner, som en användare sedan får uppdrag att klara vissa uppgifter med. 
 
@@ -115,18 +154,66 @@ Detta är i princip uppbyggt som ett traditionellt rollspel; det finns ett manus
 https://www.techtarget.com/searcherp/definition/prototype<br><br>
 https://blog.prototypr.io/high-fidelity-prototyping-what-when-why-and-how-f5bbde6a7fd4___<br><br>
 Föreläsningar av Sebastian Lindgren, Chas Academy
+___
 
 ## UD 1.5 Personas och målgruppsanalys
-___
->### KÄLLOR:<br>
+För att få en bild av användaren av ens produkter kan man använda sig av så kallade *user personas*. En user persona är en semi-fiktiv karaktär som är baserad på ens tänkta användare, och arbetas fram genom intervjuer och insamling av data (exempelvis demografiska data).
 
+Dessa user personas kan göras väldigt omfattande, eller väldigt enkla, men de ska alla i princip besvara frågor som:
+
+* *Vem är du?*<br>
+Försöka att summera personans utgångspunkt; exempelvis "John, 52 år gammal, jurist".<br><br>
+
+* *Vad är ditt mål?*
+Detta för att förstå hur produkten kommer passa användaren; varför kommer de använda den? Vilka problem är det de försöker lösa med produkten?<br><br>
+* *Vad är det som hindrar dig från att nå detta mål?*<br>
+Vad är det som håller användaren från att använda produkten, alternativt använda den mer eller på ett bättre sätt?<br><br>
+
+Det finns tre olika sätt man kan göra personas, beroende på hur man undersöker dem:
+
+**Proto-personas**<br>
+För att snabbt kunna få ett team att förstå vilka användarna är. Dessa är inte baserade på några nytt utförda undersökningar, utan på data som redan finns men oftast på teamets egna gissningar och antaganden. Dessa user personas skapas ofta i en workshop där alla i teamet skapar några personas var, som sedan diskuteras, kombineras och editeras till cirka 3-6 stycken. Nackdelen med dessa personas är att de förstås inte är vetenskapligt underbyggda av några målgruppsanalyser specifikt utförda för projektet i.<br><br>
+**Kvalitativa personas**<br>
+Dessa är baserade på relativt små kvalitiativa undersökningar, så som intervjuer, fältstudier eller användartest. cirka 5-30 personer blir intervjuade, dessa intervjuer blir sedan analyserade där man letar efter mönster bland användarnas svar. Denna användardata skapar man sedan sina personas av. Denna metod kan sägas vara den mest använda, då den ger mest "bang for the buck" i termer av tids- och arbetsåtgång.<br><br>
+**Statistiska personas**<br>
+Där man använder kvalitativa undersökningar som bas för en större målgrupp, och skapar personas ur statistisk analys av denna målgrupp.
+Den mest arbets- och tidskrävande metoden, som består av en blandning av kvalitativa och kvantitativa granskningar av användare. Detta brukar utföras genom att man skickar ut undersökningar till stora mängder av den tilltänkta användarbasen (minst 100 stycken, men helst 500 eller mer), där svaren sedan analyseras och omvandlas till statistik.<br>
+<p align="center"><img src="https://assets.justinmind.com/wp-content/uploads/2020/07/food-shopping-user-persona-template.png" width="400" /></p>
+
+___
+
+>### KÄLLOR:<br>
+https://www.nngroup.com/articles/persona-types/<br><br>
+https://www.hotjar.com/blog/user-personas/<br><br>
+https://buffer.com/library/marketing-personas-beginners-guide/<br><br>
+
+Föreläsningar av Sebastian Lindgren, Chas Academy
 ___
 
 ## UD 1.6 Empiriska metoder
+Empiriska undersökningsmetoder kan definieras som att vara studier där slutsatserna dragna är helt baserade på konkreta verifierbara bevis. Ordet kommer från antikens Grekland där vetenskapsmän myntade termen *empeirikos* (erfarenhet) för metoden att basera sina teorier på enbart med sinnena observerbara fenomen. 
+
+Den empiriska undersökningsmetoden kan delas upp i två olika sub-metoder:
+
+**Kvalitativa metoder**<br>
+Kvalitiativa undersökningsmetoder används för att samla icke-numeriska data, för att finna de underliggande anledningarna eller åsikterna från studieobjekten. Denna metod kan vara semi-strukturerad eller ostrukturerad, och resultaten kan kallas mer deskriptiva än prediktiva. Undersökaren kan med resultaten göra slutsatser baserade på observationerna, för att stödja sina hypoteser eller teorier.
+
+Storleken på kvalitativa undersökningar är oftast relativt små, huvudmeningen är att ta fram mer djupgående information eller insikt i ämnet man studerar. Två av de mest använda metoderna inom kvalitativ undersökning är:
+
+* *Intervjuer*<br>
+Nog den mest använda metoden. Tar sin form i en konversation med undersökningsobjeket eller -objekten, där djupgående information kan hämtas om de rätta frågorna ställs.
+
+* *Fokusgrupper*<br>
+Består av en noggrant planerad grupp-diskussion ledd av en moderator, med syftet att få fram åsikter om en given fråga. Denna metod används när man vill ta reda på *hur*, *vad* och *varför* om ett specifikt ämne. Används ofta vid designande och framtagande av produkter.
+
+**Kvantitativa metoder**
+Kvantitativa metoder används för att samla in information med hjälp av numeriska data. Man använder den för att bland annat mäta preferenser, beteenden, personliga åsikter. Dessa undersökningar utförs mer strukturerat än kvalitativa, oftast på stora grupper och med förutbestämda variabler. Datan som insamlas från kvantitativa undersökningsmetoder analyseras och används för att svara på de vetenskapligt ställda frågorna. Ett undersökningsformat som ofta används är opinionsundersökningar, där man insamlar statistisk data från en specifik målgrupp. Dessa kan vara en engångshändelse eller utförda flera gånger i en längre process.
 
 ___
 >### KÄLLOR:<br>
-
+https://research.com/research/what-is-empirical-research<br><br>
+https://www.formpl.us/blog/empirical-research#:~:text=Empirical%20research%20is%20a%20type,or%20scientific%20data%20collection%20methods.<br><br>
+Föreläsningar av Sebastian Lindgren, Chas Academy
 ___
 
 ## UD 1.7 Grundläggande kognitionspsykologi
@@ -165,5 +252,5 @@ ___
 https://www.webmd.com/mental-health/what-is-cognitive-psychology<br><br>
 https://www.uxpin.com/studio/blog/cognitive-psychology-for-ux-design/#:~:text=for%20your%20customers.-,Understanding%20Cognitive%20Psychology%20in%20UX%20Design,foundation%20for%20user%20experience%20design.<br><br>
 https://www.testingtime.com/en/blog/cognitive-psychology-in-ux/<br><br>
-
+Föreläsningar av Sebastian Lindgren, Chas Academy
 ___
