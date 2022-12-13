@@ -2,7 +2,10 @@
 Studerande: Maria Ivraeus
 
 ## UD 1.1 Grafik och design för webbsidor
-Beskriv rubriken här
+___
+>### KÄLLOR:<br>
+
+___
 
 ## UD 1.2 UX och användbarhet
 När man utvecklar en webbsida, app eller någon annan produkt måste man givetvis ha användaren i tanken. Det är här koncepten UX och användbarhet (usability) kommer in. 
@@ -68,7 +71,7 @@ F-mönstret är det vanligaste läsmönstret som tar hänsyn till hur ögat scan
 Användare läser först av sidan horisontellt, vanligtvis över den övre delen av sidan. Efter detta låter man ögonen gå vertikalt nedåt på den vänstra sidan av skärmen för att scanna av början av paragrafer eller rubriker som kan verka intressanta. F-mönstret är bäst när sidan har mycket innehåll, i synnerhet mycket text (exmpelvis nyhetssidor, bloggar).
 <p align="center"><img src="https://miro.medium.com/max/1200/0*RS1IkgtcLe3CdeyV.jpg" width="400" /></p>
 
-Z-mönstret kan appliceras när fokus inte ska ligga på textinnehåll. Det är det typiska mönstret för landing pages och/eller sidor som inte behövs scrollas, där all info finns synlig på skärmen direkt. 
+Z-mönstret kan appliceras när fokus inte ska ligga på textinnehåll. Det är det typiska mönstret för landing pages och/eller sidor som inte behövs scrollas, med stora bilder och  där all info finns synlig på skärmen direkt. 
 
 Den viktigaste informationen sätter man på ställen som övre hörn, samt sätter övrigt innehåll man vill ha uppmärksammat horisontellt längst uppe eller nere på skärmen:
 
@@ -90,13 +93,77 @@ Föreläsningar av Sebastian Lindgren, Chas Academy
 ___
 
 ## UD 1.4 Prototyping
-Beskriv rubriken här
+En prototup är en (mer eller mindre) rudimentärt fungerande modell av en produkt eller ett system. Dessa görs oftast med syftet att kunna demonstreras och/eller som en del av utvcklingsprocessen.
+
+En prototyp till en webbsida kan vara allt ifrån enklare varianter tillverkade av papper, till wireframes som är mer avancerade och som man kan interagera med.
+
+Så kallade *low fidelity*-prototyper är mycket enkla och snabbt producerade prototyper, skissade på ett papper eller i något enklare mjukvaruprogram. Dessa sorter av prototyper görs vanligtvis i den absoluta början av ett utvecklings-projekt.
+<br>
+<p align="center"><img src="https://s3.amazonaws.com/www-inside-design/uploads/2018/05/lofi-hifi-proto-sq.jpg" /></p>
+
+
+*Hi fidelity-prototyping* används för att ge en i princip helt full uppfattning om hur den färdiga produkten kommer se ut och kännas. Dessa är mycket detaljerade och så nära som den färdiga produkten som möjligt. Hi fi-prototypen ska innefatta inte bara UI (user interface), utan också UX. Dessa prototyper görs i mjukvaruprogram, som exempelvis Figma.
+
+<p align="center"><img src="https://www.animaapp.com/blog/wp-content/uploads/2020/07/prototype-and-export-html-figma-1-1024x636.jpg" /></p>
+
+*Wizard of Oz-prototyping* kallas en prototyp-metod som man använder för att samla data om hur en produkt interageras med, med syftet att öka användar-upplevelsen. Detta går ut på att oftast med relativt enkla medel skapa en modell av den färdiga webbsidan och dess funktioner, som en användare sedan får uppdrag att klara vissa uppgifter med. 
+
+Detta är i princip uppbyggt som ett traditionellt rollspel; det finns ett manus/instruktioner som användaren ska följa under övervakning av en "spelledare" (the wizard) som gör saker som ska simulera den färdiga produkten. Ibland är användaren ovetandes om att det är en person och inte en dator som styr händelseflödet. 
+ ___
+>### KÄLLOR:<br>
+>https://www.techtarget.com/searchcio/definition/Wizard-of-Oz-prototyping#:~:text=Wizard%20of%20Oz%20prototyping%20(WOZ,which%20is%20called%20a%20prototype.<br><br>
+https://www.techtarget.com/searcherp/definition/prototype<br><br>
+https://blog.prototypr.io/high-fidelity-prototyping-what-when-why-and-how-f5bbde6a7fd4___<br><br>
+Föreläsningar av Sebastian Lindgren, Chas Academy
 
 ## UD 1.5 Personas och målgruppsanalys
-Beskriv rubriken här
+___
+>### KÄLLOR:<br>
+
+___
 
 ## UD 1.6 Empiriska metoder
-Beskriv rubriken här
+
+___
+>### KÄLLOR:<br>
+
+___
 
 ## UD 1.7 Grundläggande kognitionspsykologi
-Beskriv rubriken här
+Kognitionspsykologi är den delen av psykologin som studerar hur människor tänker. Man undersöker hur våra känslor, sinnen, minnen, uppmärksamhet, kreativitet och problemlösning (med mera) interagerar med varandra och påverkar våra tankar och beteenden. Eftersom att interaktionen med digitala produkter är en kognitiv process, kan denna vetenskap vara till hjälp för förstå användaren på ett bättre sätt - allt för att skapa så bra produkter som möjligt. Här är några teorier om hur den mänskliga hjärnan fungerar som kan vara bra att veta om i designarbetet:
+
+**Schema Theory**<br>
+Behandlar hur hjärnan tar till sig och lagrar information. Människor kommer bäst ihåg information om man matar den till dem i små bitar, vilket man kan dra nytta av i utvecklingsarbetet genom att göra designs som är strukturerade och enkla att följa flödet i. Information bör vara uppdelat i mindre bitar.
+
+**Theories of Visual Perception**<br>
+Hur man bäst tar in information rent visuellt. Människor tenderar att fokusera på flöden av information i mönstrena topp-botten och vänster-höger. Detta kan utnyttjas med hjälp av olika sorters färger, fonter, fontstorlekar osv. för att få användarens uppmärksamhet.
+
+**The Verbatim Effect**<br>
+Menar att människor minns bäst *helheten* i en given situation, än specifika detaljer om den. Därför är det bra att i första hand tänka på hur helhetsbilden känns när man designar. Denna effekt sträcker sig inte bara till det visuella, utan även till content - man minns bättre essensen i en skriven mening, än hur meningen var uppbyggd rent bokstavligt.
+
+**The Chameleon Effekt**<br>
+Hävdar att människor tenderar att (både medvetet och omedvetet) härma beteendena av människor runt omkring dem, för att kunna smälta in i sammanhang. Detta tar sig bland annat i uttryck med trender, som man som designer kan använda sig av för att rikta sig mot specifika grupper av användare.
+
+**Hick's Law**<br>
+Menar att ju fler val och/eller stimuli en människa blir presenterar, desto längre kommer det ta för denne att göra val. Grafen nedan visar ungefär hur detta går till:
+<p align="center"><img src="https://www.testingtime.com/app/uploads/2022/05/image2-1024x567.png" /></p
+
+När man skapar användarupplevelser bör man ha detta i tanken, människor har generellt korta koncentrationsförmågor vilket gör att de behöver hitta informationen de söker snabbt, innan de blir uttråkade.
+
+**Cognitive Loads**
+Hur mycket energi och utrymme som används i en mänsklig hjärna när denne interagerar med en design. Det finns tre typer av Cognitive Loads:
+* *Intrinsic loads*
+Hur enkelt en användare kan absorbera information från ett interface och hålla sig fokuserad på det. Ett sätt att använda detta kan vara att exempelvis endast den information som är relevant finns på webbsidan för att inte distrahera<br><br>
+* *Extraneous Loads*<br>
+Energin som förbrukas i den mänskliga hjärnan när den interagerar med designen, fonter, färger etc. Man kan underlätta detta genom att exempelvis använda sig av enhetliga färgscheman och font-typer på websidan.<br><br>
+* *Germane Cognitive Load*<br>
+Hur mycket energi det förbrukar i den mänskliga hjärnan att gå från en process till en annan. Man kan minska denna ansträngning genom att tänka på hur bra "the flow" är på webbsidan. 
+
+
+___
+>### KÄLLOR:<br>
+https://www.webmd.com/mental-health/what-is-cognitive-psychology<br><br>
+https://www.uxpin.com/studio/blog/cognitive-psychology-for-ux-design/#:~:text=for%20your%20customers.-,Understanding%20Cognitive%20Psychology%20in%20UX%20Design,foundation%20for%20user%20experience%20design.<br><br>
+https://www.testingtime.com/en/blog/cognitive-psychology-in-ux/<br><br>
+
+___
